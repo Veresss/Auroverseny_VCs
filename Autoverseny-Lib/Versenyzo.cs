@@ -2,21 +2,29 @@
 {
     public class Versenyzo
     {
-        public Versenyzo(string nev)
+        public Versenyzo(string nev, int pozicio, Mezony mezony)
         {
             Nev = nev;
             Tank = 100;
+            Pozicio = pozicio;
+            Mezony = mezony;
         }
         public int Tank { get; protected set; }
         public string Nev { get; init; }
         public string Tipus { get; init; }
-        public void Elozes()
+        public int Pozicio { get; set; }
+        public Mezony Mezony { get; init; }
+        public virtual void Eloz()
         {
-
         }
-        public void Kor()
+        public virtual void VersenyzoKor(int versenyKor)
         {
-            Tank -= 5;
+        }
+        public void Tankol()
+        {
+            Tank = 100;
+            if (Mezony.VersenyzokSzama < 5) Pozicio = Mezony.VersenyzokSzama;
+            else Pozicio -= 5;
         }
         public override string ToString()
         {

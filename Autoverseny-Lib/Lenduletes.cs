@@ -8,7 +8,7 @@ namespace Autoverseny_Lib
 {
     public class Lenduletes : Versenyzo
     {
-        public Lenduletes(string nev) : base(nev)
+        public Lenduletes(string nev, int pozicio, Mezony mezony) : base(nev, pozicio, mezony)
         {
             Tipus = "Lednületes";
         }

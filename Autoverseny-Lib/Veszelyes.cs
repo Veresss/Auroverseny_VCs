@@ -9,7 +9,7 @@ namespace Autoverseny_Lib
 {
     public class Veszelyes : Versenyzo
     {
-        public Veszelyes(string nev) : base(nev)
+        public Veszelyes(string nev, int pozicio, Mezony mezony) : base(nev, pozicio, mezony)
         {
             Tipus = "Veszélyes";
         }

@@ -3,3 +3,4 @@ Lecler 4
 Verstappen 1
 Mazespin 3
 Norris 2
+Hamilton 4
