@@ -11,7 +11,7 @@ namespace Autoverseny_Lib
     {
         public Ovatos(string nev) : base(nev)
         {
-
+            Tipus = "Óvatos";
         }
     }
 }

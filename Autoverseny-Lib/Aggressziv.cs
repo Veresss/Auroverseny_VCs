@@ -11,7 +11,7 @@ namespace Autoverseny_Lib
     {
         public Aggressziv(string nev) : base(nev)
         {
-
+            Tipus = "Aggresszív";
         }
     }
 }

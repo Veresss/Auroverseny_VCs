@@ -13,5 +13,9 @@ namespace Autoverseny_Lib
         {
             mezony.AddRange(versenyzok);
         }
+        public override string ToString()
+        {
+            return String.Join("\n", mezony);
+        }
     }
 }

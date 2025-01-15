@@ -10,7 +10,7 @@ namespace Autoverseny_Lib
     {
         public Lenduletes(string nev) : base(nev)
         {
-
+            Tipus = "Lednületes";
         }
     }
 }

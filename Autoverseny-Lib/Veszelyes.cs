@@ -11,7 +11,7 @@ namespace Autoverseny_Lib
     {
         public Veszelyes(string nev) : base(nev)
         {
-
+            Tipus = "Veszélyes";
         }
     }
 }
